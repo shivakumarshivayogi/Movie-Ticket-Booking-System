@@ -1,12 +1,12 @@
-# 🎬 Movie Ticket Booking System
+#  Movie Ticket Booking System
 
 A full-stack, enterprise-grade Movie Ticket Booking Application developed with **Java 21 (Spring Boot 3)** on the backend and **React** on the frontend. Features JWT authentication, interactive 2D seat selection grid, payment processing, printable PDF ticket generation, and a comprehensive Admin management dashboard.
 
 ---
 
-## 🌟 Features
+##  Features
 
-### 👤 User Features
+###  User Features
 - **Authentication**: Registration, JWT Login, Secure Password Hashing (BCrypt), and Session context.
 - **Movie Browsing**: Filter by genre, language, search by title, and view movie details with ratings & duration.
 - **Theatre & Showtimes**: Select theatres by city and pick showtime slots.
@@ -15,7 +15,7 @@ A full-stack, enterprise-grade Movie Ticket Booking Application developed with *
 - **Instant PDF Ticket**: Generate and download printable ticket PDF with QR code upon successful booking.
 - **Booking History & Cancellation**: View past bookings, cancel tickets with instant status update.
 
-### 🛡️ Admin Features
+###  Admin Features
 - **Dashboard Analytics**: Real-time metrics for Total Movies, Total Users, Today's Bookings, and Total Revenue.
 - **Movie Management**: Add, update, delete, and upload poster URLs for movies.
 - **Theatre & Screen Management**: Add theatres, manage screens, and configure seat capacities.
@@ -24,7 +24,7 @@ A full-stack, enterprise-grade Movie Ticket Booking Application developed with *
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -35,7 +35,7 @@ A full-stack, enterprise-grade Movie Ticket Booking Application developed with *
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 Movie-Ticket-Booking-System/
@@ -71,16 +71,16 @@ Movie-Ticket-Booking-System/
 
 ---
 
-## 🔗 REST API Endpoints
+##  REST API Endpoints
 
-### 🔑 Authentication
+###  Authentication
 | Method | Endpoint | Access | Description |
 | :--- | :--- | :--- | :--- |
 | `POST` | `/api/auth/register` | Public | Register a new user |
 | `POST` | `/api/auth/login` | Public | Authenticate user & return JWT token |
 | `POST` | `/api/auth/logout` | User / Admin | Logout user session |
 
-### 🎬 Movies
+###  Movies
 | Method | Endpoint | Access | Description |
 | :--- | :--- | :--- | :--- |
 | `GET` | `/api/movies` | Public | Fetch all movies |
@@ -89,7 +89,7 @@ Movie-Ticket-Booking-System/
 | `PUT` | `/api/movies/{id}` | Admin | Update existing movie |
 | `DELETE` | `/api/movies/{id}` | Admin | Delete a movie |
 
-### 🏛️ Theatres & Shows
+###  Theatres & Shows
 | Method | Endpoint | Access | Description |
 | :--- | :--- | :--- | :--- |
 | `GET` | `/api/theatres` | Public | List all theatres & screens |
@@ -98,7 +98,7 @@ Movie-Ticket-Booking-System/
 | `POST` | `/api/shows` | Admin | Add show schedule |
 | `GET` | `/api/shows/{id}/seats` | Public | Fetch seat layout & booked status for show |
 
-### 🎟️ Bookings & Payments
+###  Bookings & Payments
 | Method | Endpoint | Access | Description |
 | :--- | :--- | :--- | :--- |
 | `POST` | `/api/booking` | User | Confirm seat selection & create booking |
@@ -109,7 +109,7 @@ Movie-Ticket-Booking-System/
 
 ---
 
-## ⚡ Quick Start Guide
+##  Quick Start Guide
 
 ### 1. Database Setup
 Execute `Database/schema.sql` followed by `Database/data.sql` in MySQL Workbench or terminal.
@@ -140,13 +140,13 @@ npm run dev
 
 ---
 
-## 🔮 Future Enhancements
-- 💳 Integration with real payment gateways (Stripe / Razorpay).
-- 📧 Automated email confirmation with embedded QR Code ticket.
-- 💬 Real-time seat availability updates using WebSockets.
-- ⭐ User ratings, reviews, and discount coupon codes.
+##  Future Enhancements
+-  Integration with real payment gateways (Stripe / Razorpay).
+-  Automated email confirmation with embedded QR Code ticket.
+-  Real-time seat availability updates using WebSockets.
+-  User ratings, reviews, and discount coupon codes.
 
 ---
 
-## ✍️ Author
+##  Author
 Designed & Developed for Movie Ticket Booking Systems.
